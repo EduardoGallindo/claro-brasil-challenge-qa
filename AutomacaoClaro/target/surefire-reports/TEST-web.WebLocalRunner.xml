@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="web.WebLocalRunner" time="48.89" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\eduar\eclipse-workspace\AutomacaoClaro\target\test-classes;C:\Users\eduar\eclipse-workspace\AutomacaoClaro\target\classes;C:\Users\eduar\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\eduar\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\eduar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\eduar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\eduar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\eduar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\eduar\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\eduar\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\eduar\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\eduar\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\eduar\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\eduar\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\eduar\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\eduar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\eduar\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\eduar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\eduar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\eduar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\eduar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\eduar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\eduar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\eduar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\eduar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\eduar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\eduar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\eduar\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\eduar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Cayenne"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\eduar\AppData\Local\Temp\surefire3638824597125953662\surefirebooter4134173689025895967.jar C:\Users\eduar\AppData\Local\Temp\surefire3638824597125953662 2020-12-22T23-22-02_086-jvmRun2 surefire3985370781908045243tmp surefire_28136054277060379734tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\eduar\eclipse-workspace\AutomacaoClaro\target\test-classes;C:\Users\eduar\eclipse-workspace\AutomacaoClaro\target\classes;C:\Users\eduar\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\eduar\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\eduar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\eduar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\eduar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\eduar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\eduar\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\eduar\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\eduar\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\eduar\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\eduar\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\eduar\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\eduar\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\eduar\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\eduar\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\eduar\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\eduar\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\eduar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\eduar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\eduar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\eduar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\eduar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\eduar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\eduar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\eduar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\eduar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\eduar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\eduar\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\eduar\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\eduar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\eduar"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\Users\eduar\eclipse-workspace\AutomacaoClaro"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\eduar\AppData\Local\Temp\surefire3638824597125953662\surefirebooter4134173689025895967.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="eduar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\eduar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\eduar\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\Users\eduar\eclipse-workspace\AutomacaoClaro"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.9/bin/server;C:/Program Files/Java/jdk-11.0.9/bin;C:\Program Files\Java\jdk-11.0.9\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\eduar\AppData\Local\Android\Sdk\tools;C:\Users\eduar\AppData\Local\Android\Sdk\tools\bin;C:\Users\eduar\AppData\Local\Android\Sdk\platform-tools;C:\Users\eduar\AppData\Local\Android\Sdk\emulator;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\eduar\AppData\Local\Microsoft\WindowsApps;C:\Users\eduar\AppData\Roaming\npm;C:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Efetuar cadastro no site automationpractice" classname="Realizar cadastro e efetuar login no site automationpractice" time="22.407">
+    <system-out><![CDATA[
+@CT01
+DelineaÃ§Ã£o do CenÃ¡rio: Efetuar cadastro no site automationpractice                                                     # src/test/java/web/featuresCadastroeLogin.feature:22
+  Dado que desejo efetuar o teste no navegador "Chrome" na mÃ¡quina "local"                                             # web.StepsClaroWeb.que_desejo_efetuar_o_teste_no_navegador_na_mÃ¡quina(java.lang.String,java.lang.String)
+  Dado que desejo me cadastrar no site automationpractice                                                              # web.StepsClaroWeb.que_desejo_me_cadastrar_no_site_automationpractice()
+  Quando acessar o site                                                                                                # web.StepsClaroWeb.acessar_o_site()
+  EntÃ£o devo preencher o "testeautomacaoclaro4@mailinator.com" da minha nova conta e clicar no botÃ£o Create an account # web.StepsClaroWeb.devo_preencher_meu_e_mail(java.lang.String)
+  Quando for direcionado para a aba de dados da conta                                                                  # web.StepsClaroWeb.for_direcionado_para_a_aba_de_dados_da_conta()
+  EntÃ£o devo preencher meu "Eduardo", "Oliveira" e "03/05/1998"                                                        # web.StepsClaroWeb.devo_preencher_meu_e(java.lang.String,java.lang.String,java.lang.String)
+  E escolher uma "senhA123"                                                                                            # web.StepsClaroWeb.escolher_uma(java.lang.String)
+  E preencher os dados de endereÃ§o                                                                                     # web.StepsClaroWeb.preencher_os_dados_de_endereÃ§o()
+  E preencher o "11996826338"                                                                                          # web.StepsClaroWeb.preencher_o(java.lang.String)
+  E clicar em Register                                                                                                 # web.StepsClaroWeb.clicar_em_register()
+  E validar que a conta foi criada com sucesso                                                                         # web.StepsClaroWeb.validar_que_a_conta_foi_criada_com_sucesso()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 21293
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dez 22, 2020 11:22:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Tentar cadastrar novamente o mesmo e-mail no site automationpractice" classname="Realizar cadastro e efetuar login no site automationpractice" time="12.532">
+    <system-out><![CDATA[
+@CT02
+DelineaÃ§Ã£o do CenÃ¡rio: Tentar cadastrar novamente o mesmo e-mail no site automationpractice                           # src/test/java/web/featuresCadastroeLogin.feature:34
+  Dado que desejo efetuar o teste no navegador "Chrome" na mÃ¡quina "local"                                            # web.StepsClaroWeb.que_desejo_efetuar_o_teste_no_navegador_na_mÃ¡quina(java.lang.String,java.lang.String)
+  Dado que desejo me cadastrar no site automationpractice                                                             # web.StepsClaroWeb.que_desejo_me_cadastrar_no_site_automationpractice()
+  Mas o meu email jÃ¡ foi cadastrado anteriormente                                                                     # web.StepsClaroWeb.o_meu_email_jÃ¡_foi_cadastrado_anteriormente()
+  Quando acessar o site                                                                                               # web.StepsClaroWeb.acessar_o_site()
+  EntÃ£o devo preencher o "testeautomacaoclaro@mailinator.com" da minha nova conta e clicar no botÃ£o Create an account # web.StepsClaroWeb.devo_preencher_meu_e_mail(java.lang.String)
+  E validar que foi apresentada mensagem de erro                                                                      # web.StepsClaroWeb.validar_que_foi_apresentada_mensagem_de_erro()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 35084
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dez 22, 2020 11:22:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Efetuar login no site automationpractice" classname="Realizar cadastro e efetuar login no site automationpractice" time="12.472">
+    <system-out><![CDATA[
+@CT03
+DelineaÃ§Ã£o do CenÃ¡rio: Efetuar login no site automationpractice               # src/test/java/web/featuresCadastroeLogin.feature:45
+  Dado que desejo efetuar o teste no navegador "Chrome" na mÃ¡quina "local"    # web.StepsClaroWeb.que_desejo_efetuar_o_teste_no_navegador_na_mÃ¡quina(java.lang.String,java.lang.String)
+  Dado que desejo acessar minha conta no site automationpractice              # web.StepsClaroWeb.que_desejo_acessar_minha_conta_no_site_automationpractice()
+  Quando acessar o site                                                       # web.StepsClaroWeb.acessar_o_site()
+  EntÃ£o devo preencher meu "testeautomacaoclaro1@mailinator.com" e "senhA123" # web.StepsClaroWeb.devo_preencher_meu_e(java.lang.String,java.lang.String)
+  E validar que a conta foi acessada com sucesso                              # web.StepsClaroWeb.validar_que_a_conta_foi_acessada_com_sucesso()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 33380
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dez 22, 2020 11:22:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
